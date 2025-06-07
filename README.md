@@ -95,11 +95,15 @@ Yes, but we already have to agree on functions, so this is not hard. The table e
   - [elixir-multihashing](//github.com/candeira/ex_multihashing)
 - [go-multihash](//github.com/multiformats/go-multihash)
 - [haskell-multihash](//github.com/LukeHoersten/multihash)
-- [js-multihash](//github.com/multiformats/js-multihash)
+- js-multihash
+  - [js-multiformats](//github.com/multiformats/js-multiformats)
+  - [js-multihash](//github.com/multiformats/js-multihash) (archived)
 - java-multihash
   - [multiformats/java-multihash](//github.com/multiformats/java-multihash)
-  - [comodal/hash-overlay](//github.com/comodal/hash-overlay)
-- [kotlin-multihash](//github.com/changjiashuai/kotlin-multihash)
+  - [copper multicodec and multihash](https://github.com/filip26/copper-multicodec)
+- kotlin-multihash
+  - [kotlin-multihash](//github.com/changjiashuai/kotlin-multihash)
+  - [multiformat](https://github.com/erwin-kok/multiformat)
 - net-multihash
   - [cs-multihash](//github.com/multiformats/cs-multihash)
   - [MultiHash.Net](//github.com/MCGPPeters/MultiHash.Net)
@@ -119,12 +123,12 @@ Yes, but we already have to agree on functions, so this is not hard. The table e
 - swift-multihash
   - [by @multiformats](//github.com/multiformats/SwiftMultihash)
   - [by @yeeth](//github.com/yeeth/Multihash.swift)
+  - [by @ATProtoKit](https://github.com/ATProtoKit/MultiformatsKit)
+- [zig-multihash](https://github.com/zen-eth/multiformats-zig)
 
 ## Table for Multihash
 
-We use a single [Multicodec](https://github.com/multiformats/multicodec) table across all of our multiformat projects. The shared namespace reduces the chances of accidentally interpreting a code in the wrong context. Multihash entries are identified with a `multihash` value in the `tag` column.
-
-The current table lives [here](https://github.com/multiformats/multicodec/blob/master/table.csv)
+We use a single [Multicodec](https://github.com/multiformats/multicodec) [table](https://github.com/multiformats/multicodec/blob/master/table.csv) across all of our multiformat projects. The shared namespace reduces the chances of accidentally interpreting a code in the wrong context. Multihash entries are identified with a `multihash` value in the `tag` column.
 
 ### Other Tables
 
@@ -182,10 +186,6 @@ These are visual aids that help tell the story of why Multihash matters.
 #### Multihash: has a bunch of implementations already
 
 ![](https://raw.githubusercontent.com/multiformats/multihash/master/img/multihash.008.jpg)
-
-## Maintainers
-
-Captain: [@jbenet](https://github.com/jbenet).
 
 ## Contribute
 
